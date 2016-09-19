@@ -6,27 +6,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	</head>
 	<body>
-		<footer>
-			<ul>
-			    <div><a href="#">Home</a></div>
+		<footer id="glass_footer">
+			<ul id="footer_menu">
+			    <div id="home_tab" class="tab add_paddind_top"><a href="#">Home</a></div>
 
-			    <div><span>Calculators</span>
-				    <div>
-				    	<li>Math</li>
-				    	<li>Javascript</li>
-				    	<li>Ruby Calc</li>
+			    <div id="calc_tab" class="tab add_paddind_top"><span>Calculators</span>
+				    <div id="calc_list">
+				    	<li id="math_calc" class="border_bottom_btn calc_list_item_height">Math</li>
+				    	<li id="js_calc" class="border_bottom_btn calc_list_item_height">Javascript</li>
+				    	<li id="ruby_calc" class="border_bottom_btn calc_list_item_height">Ruby Calc</li>
 				    </div>
 			    </div>
 
-			    <div>Notification</div>
+			    <div id="display_tab" class="tab add_paddind_top">Notification</div>
 
-			    <div>
-			    	<li><img src="" alt=""></li>
-			    	<li><img src="" alt=""></li>
-			    	<li><img src="" alt=""></li>
+			    <div id="notification_tab" class="tab">
+			    	<li class="notification tab"><i class="material-icons">bubble_chart</i></li>
+			    	<li class="notification tab"><i class="material-icons">watch</i></li>
+			    	<li class="notification tab"><i class="material-icons">ev_station</i>
 			    </div>
+
+			    <div id="logout_tab" class="tab logout add_padding_top"><span><a href="#">LOGOUT</a></span></div>
 
 			</ul>
 
